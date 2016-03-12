@@ -11,7 +11,6 @@ public class StartGame extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        GameView gameView = new GameView(this);
-        setContentView(gameView);
+        setContentView(R.layout.start_main);
     }
 }
